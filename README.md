@@ -51,7 +51,8 @@ The application ingests customer support ticket data, preprocesses it with rich 
 
 ## 📷 Streamlit Preview
 
-![Screenshot](https://user-images.githubusercontent.com/your-placeholder-image-link-here.png) <!-- Replace or remove this if not available -->
+<img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/a80e8afd-4b0b-4650-87c4-4a4dbaaad83a" />
+<!-- Replace or remove this if not available -->
 
 ---
 
