@@ -91,8 +91,7 @@ customer-support-prediction/
 │   └── sample_tickets.csv      # Example support data
 ├── requirements.txt
 ├── README.md
-└── notebooks/
-    └── model.ipynb      # Full pipeline development
+└── model.ipynb      # Full pipeline development
 
 ```
 
