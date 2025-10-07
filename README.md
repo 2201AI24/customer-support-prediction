@@ -152,7 +152,8 @@ Predicted vs. Actual scatter plot shows near-perfect alignment (y = x line), con
 
 <img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/da36ab1f-0358-43ad-be72-1b890950b6e4" />
 <img width="2862" height="1563" alt="image" src="https://github.com/user-attachments/assets/7484f67b-18fd-434a-b6fe-ffa98f1852db" />
-<img width="2862" height="1563" alt="image" src="https://github.com/user-attachments/assets/60357138-a26a-4d47-a7ce-4c0259e86faa" />
+<img width="2937" height="1612" alt="image" src="https://github.com/user-attachments/assets/da025fb8-d704-4ec4-a50c-ea6a51af675f" />
+
 
 ---
 
@@ -178,15 +179,19 @@ Predicted vs. Actual scatter plot shows near-perfect alignment (y = x line), con
 customer-support-prediction/
 ├── app.py/
 ├── models/
-│   ├── satisfaction_model.pkl  # Voting Classifier
-│   └── time_model.pkl          # Linear Regression
+│ ├── satisfaction_model.pkl # Logistic Regression or Voting Classifier for satisfaction prediction
+│ ├── linear_regression_model.pkl # Linear/Lasso Regression for resolution time prediction
+│ ├── desc_vectorizer.pkl # TF-IDF vectorizer for ticket description text
+│ ├── res_vectorizer.pkl # TF-IDF vectorizer for resolution text
+│ ├── feature_names.pkl # Saved list of final feature names
+│ ├── model_features.pkl # Feature importance or encoded feature matrix
 ├── utils/
 │   └── preprocessing.py        # Feature engineering & encoding
 ├── data/
 │   └── sample_tickets.csv      # Example support data
 ├── requirements.txt
 ├── README.md
-└── model.ipynb      # Full pipeline development
+└── Customer-Satisfaction.ipynb      # Full pipeline development
 
 ```
 ---
@@ -227,7 +232,5 @@ jupyter notebook Customer-Satisfaction.ipynb
 ⭐ **If you find this project insightful, please star the repository!**
 
 ```
-
----
 
 
